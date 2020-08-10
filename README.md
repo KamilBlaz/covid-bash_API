@@ -8,7 +8,7 @@ You have to edit your bashrc file.
 ```bash
 vim ~/.bashrc
 ``` 
-Here is an [example](script.sh) of how the script should look.  
+Here is an example of how the script should look.  
 *!!* **Remember** bashrc is hide file, check it `ls -a`
 
 ## Usage script 
