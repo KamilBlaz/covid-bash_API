@@ -118,16 +118,13 @@ if ! shopt -oq posix; then
   fi
 fi
 
-#Exercise
-
+# covid-bash_API - Appendix start
 func(){
- 
-  PS1='['
+   PS1='['
   PS1+="\e[0;36m"
   PS1+=$(cat /home/kamil/cov_exercise/dane.txt )
   PS1+="\e[m"
   PS1+=']\\$ '
- 
- 
 }
 PROMPT_COMMAND=func
+# End
