@@ -1,5 +1,6 @@
 # covid-bash_API
-simple script which updates the data on the number of infected with covid
+
+Simple script which shows in live time<sup>[1](#ft1)</sup> the number of infected persons with covid in your terminal propmt!
 
 # Update bashrc
 
@@ -7,15 +8,16 @@ You have to edit your bashrc file.
 ```bash
 vim ~/.bashrc
 ``` 
-You have example of how the script should look 
-!! Remember bashrc is hide file, check it 'ls -a'
+Here is an [example](script.sh) of how the script should look.  
+*!!* **Remember** bashrc is hide file, check it `ls -a`
 
 ## Usage script 
-If you don't have "screen and watch" , you should install
-sudo apt-get install ....
+
+If you don't have "screen and watch", you should install it via eg. `sudo apt-get install screen watch`
 
 ```
 screen -d -m watch -n 10 ./script.h
 ```
 
-
+----
+<a name="ft1">1</a>: The script will make request to the data server every 10 min. (when typing into terminal)
